@@ -1,3 +1,158 @@
 .home_page {
-  padding: 0;
+  color: #fff;
 }
+
+.home_page_container {
+  padding: 20px 100px;
+  background-color: #141515;
+}
+
+.home_page_footer_container {
+  padding: 20px 100px;
+  background-color: #242524;
+}
+
+.home_page_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_page_nav h1 {
+  font-size: 26px;
+}
+
+.home_page_about {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  align-items: center;
+}
+
+.home_page_about h2 {
+  font-size: 50px;
+}
+
+.home_page_about_info_name span {
+  border-bottom: 2px solid green;
+}
+
+.home_page_about p {
+  width: 300px;
+  color: #acacac;
+  margin-bottom: 50px;
+}
+
+.home_page_about_img {
+  max-width: 518px;
+}
+
+.home_page_about_img img {
+  max-width: 518px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.home_page_contact {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 2px solid green;
+}
+
+.home_page_skills {
+  padding: 50px 0;
+  border-top: 2px solid grey;
+}
+
+.home_page_skills_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 170px;
+  grid-row-gap: 40px;
+}
+
+.home_page_skills_content p {
+  color: #acacac;
+}
+
+.home_page_skills_content h4 {
+  font-size: 26px;
+}
+
+.home_page_projects_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_page_projects_title h3 {
+  font-size: 50px;
+}
+
+.home_page_projects_container {
+  display: flex;
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+  padding: 50px 0px 150px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home_page_projects_content {
+  width: 450px;
+  margin: 0 20px 40px;
+}
+
+.home_page_projects_content img {
+  width: 450px;
+  height: 300px;
+}
+
+.home_page_projects_content h4 {
+  font-size: 22px;
+}
+
+.home_page_projects_content p {
+  font-size: 16px;
+  color: #acacac;
+}
+
+.home_page_projects_view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_page_contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 50px 0 100px;
+}
+
+.home_page_contacts_heading h3 {
+  font-size: 50px;
+}
+
+.home_page_contacts_heading p {
+  width: 300px;
+}
+
+.home_page_contacts_info p {
+  font-size: 18px;
+}
+
+.home_page_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 2px solid grey;
+}
+
+.home_page_footer h4 {
+  font-size: 26px;
+}
+
+/* @media tablet 1230px */
