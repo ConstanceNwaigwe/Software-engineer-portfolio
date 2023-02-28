@@ -3,6 +3,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { skillsData } from "./skillsdata";
 import { projectsData } from "./projectsdata";
+import profile from "./images/profile.png";
 
 function HomePage() {
   return (
@@ -38,10 +39,7 @@ function HomePage() {
             </a>
           </div>
           <div className="home_page_about_img">
-            <img
-              alt="Pic of code"
-              src="https://assets.website-files.com/636ebb4d131625f3efdea089/63d50d1c050b767c509c7e6f_no-code-platform.jpg"
-            />
+            <img alt="Pic of code" src={profile} />
           </div>
         </div>
         <div className="home_page_skills">
@@ -60,17 +58,14 @@ function HomePage() {
           <div className="home_page_projects_title">
             <h3>Projects</h3>
             <a className="home_page_contact" href="#contact">
-              CONTACT ME
+              VIEW ALL
             </a>
           </div>
           <div className="home_page_projects_container">
             {projectsData.map((data) => {
               return (
                 <div className="home_page_projects_content">
-                  <img
-                    alt={data.image}
-                    src="https://assets.website-files.com/636ebb4d131625f3efdea089/63d50d1c050b767c509c7e6f_no-code-platform.jpg"
-                  />
+                  <img alt={data.name} src={data.image} />
                   <h4>{data.name}</h4>
                   <p>{data.skills}</p>
                   <div className="home_page_projects_view">

@@ -34,7 +34,7 @@
 }
 
 .home_page_about_info_name span {
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid #4ed697;
 }
 
 .home_page_about p {
@@ -45,19 +45,25 @@
 
 .home_page_about_img {
   max-width: 518px;
+  margin: 0 100px;
 }
 
 .home_page_about_img img {
   max-width: 518px;
-  height: 300px;
-  border-radius: 16px;
+  height: 350px;
+  border-radius: 10%;
 }
 
 .home_page_contact {
   color: white;
   text-decoration: none;
   padding: 10px 0;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid #4ed697;
+}
+
+.home_page_contact:hover {
+  color: #4ed697;
+  border-bottom: 2px solid white;
 }
 
 .home_page_skills {
