@@ -40,7 +40,7 @@
 .home_page_about p {
   width: 300px;
   color: #acacac;
-  margin-bottom: 50px;
+  margin: 0 0 50px;
 }
 
 .home_page_about_img {
@@ -114,6 +114,7 @@
 .home_page_projects_content img {
   width: 450px;
   height: 300px;
+  border-radius: 32px;
 }
 
 .home_page_projects_content h4 {
@@ -162,3 +163,102 @@
 }
 
 /* @media tablet 1230px */
+@media (max-width: 1230px) {
+  .home_page_projects_content {
+    width: 300px;
+    margin: 0 20px 40px;
+  }
+  .home_page_projects_content img {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+/* @media tablet 1137px */
+@media (max-width: 1137px) {
+  .home_page_about {
+    justify-content: center;
+    flex-flow: column-reverse;
+    text-align: center;
+  }
+
+  .home_page_about p {
+    margin: 0 auto 50px;
+  }
+}
+
+/* @media mobile 930px */
+@media (max-width: 930px) {
+  .home_page_projects_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .home_page_skills_container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 40px;
+  }
+}
+
+/* @media mobile 815px */
+@media (max-width: 815px) {
+  .home_page_contacts {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* @media mobile 630px */
+@media (max-width: 630px) {
+  .home_page_skills_container {
+    grid-row-gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* @media mobile 590px */
+@media (max-width: 590px) {
+  .home_page_container {
+    padding: 20px 30px;
+  }
+
+  .home_page_nav {
+    flex-direction: column;
+  }
+
+  .home_page_about_img img {
+    max-width: 280px;
+    height: 280px;
+  }
+
+  .home_page_projects_content {
+    width: 250px;
+  }
+
+  .home_page_projects_content img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .home_page_footer_container {
+    padding: 20px 30px;
+  }
+
+  .home_page_footer {
+    flex-direction: column;
+  }
+}

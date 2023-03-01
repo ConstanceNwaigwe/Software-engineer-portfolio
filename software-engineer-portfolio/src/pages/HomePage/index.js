@@ -57,7 +57,12 @@ function HomePage() {
         <div className="home_page_projects">
           <div className="home_page_projects_title">
             <h3>Projects</h3>
-            <a className="home_page_contact" href="#contact">
+            <a
+              className="home_page_contact"
+              href="https://github.com/ConstanceNwaigwe?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
               VIEW ALL
             </a>
           </div>
@@ -69,10 +74,20 @@ function HomePage() {
                   <h4>{data.name}</h4>
                   <p>{data.skills}</p>
                   <div className="home_page_projects_view">
-                    <a className="home_page_contact" href={data.uipage}>
+                    <a
+                      className="home_page_contact"
+                      href={data.uipage}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       VIEW PROJECT
                     </a>
-                    <a className="home_page_contact" href={data.code}>
+                    <a
+                      className="home_page_contact"
+                      href={data.code}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       VIEW CODE
                     </a>
                   </div>
