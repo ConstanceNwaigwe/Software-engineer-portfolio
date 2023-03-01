@@ -1,6 +1,6 @@
 import surveyPic from "./images/socialmediasurvey.png";
 // import AandLPic from "./images/adviceandlaugh.png";
-import { calculator } from "./images/calculator.png";
+import calculator from "./images/calculator.png";
 import resturantPic from "./images/krustykrabui.png";
 import dataPic from "./images/krustykrabbackend.png";
 
