@@ -14,7 +14,11 @@
 
 ---
 
-**_Presentation_**
+**_Getting Started_**
+- Git Clone branch
+- cd into software-engineer-portfolio
+- run npm start
+- View page in http://localhost:3000
 
 ---
 
