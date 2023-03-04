@@ -109,12 +109,18 @@
 .home_page_projects_content {
   width: 450px;
   margin: 0 20px 40px;
+  padding-bottom: 20px;
+  /* transition: all 1s; */
 }
 
 .home_page_projects_content img {
   width: 450px;
   height: 300px;
   border-radius: 32px;
+}
+
+.home_page_projects_content:hover {
+  border-bottom: 2px solid #4ed697;
 }
 
 .home_page_projects_content h4 {

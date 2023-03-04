@@ -6,6 +6,13 @@ import dataPic from "./images/krustykrabbackend.png";
 
 const projectsData = [
   {
+    image: surveyPic,
+    name: "Social Media Survey",
+    skills: "React CSS JavaScript",
+    uipage: "https://socialmediasurvey.netlify.app/",
+    code: "https://github.com/ConstanceNwaigwe/new-social-media-survey",
+  },
+  {
     image: resturantPic,
     name: "Krusty Krab Resturant",
     skills: "React CSS JavaScript",
@@ -18,13 +25,6 @@ const projectsData = [
     skills: "React CSS JavaScript",
     uipage: "https://calculatorcreatedwithreact.netlify.app/",
     code: "https://github.com/ConstanceNwaigwe/web-module-project-reducer",
-  },
-  {
-    image: surveyPic,
-    name: "Social Media Survey",
-    skills: "React CSS JavaScript",
-    uipage: "https://socialmediasurvey.netlify.app/",
-    code: "https://github.com/ConstanceNwaigwe/new-social-media-survey",
   },
   {
     image: dataPic,

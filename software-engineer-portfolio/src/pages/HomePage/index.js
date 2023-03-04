@@ -70,7 +70,11 @@ function HomePage() {
             {projectsData.map((data) => {
               return (
                 <div className="home_page_projects_content">
-                  <img alt={data.name} src={data.image} />
+                  <div>
+                    <a href={data.uipage} target="_blank" rel="noreferrer">
+                      <img alt={data.name} src={data.image} />
+                    </a>
+                  </div>
                   <h4>{data.name}</h4>
                   <p>{data.skills}</p>
                   <div className="home_page_projects_view">
