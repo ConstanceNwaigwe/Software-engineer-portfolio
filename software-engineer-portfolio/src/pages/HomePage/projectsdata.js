@@ -1,10 +1,17 @@
 import surveyPic from "./images/socialmediasurvey.png";
-// import AandLPic from "./images/adviceandlaugh.png";
-import calculator from "./images/calculator.png";
+import AandMPic from "./images/adviceandlaugh.png";
+// import calculator from "./images/calculator.png";
 import resturantPic from "./images/krustykrabui.png";
 import dataPic from "./images/krustykrabbackend.png";
 
 const projectsData = [
+  {
+    image: AandMPic,
+    name: "Advice and Memes",
+    skills: "React CSS JavaScript",
+    uipage: "https://adviceandmemes.netlify.app/",
+    code: "https://github.com/Constance-Nwaigwe/Advice-and-Memes",
+  },
   {
     image: surveyPic,
     name: "Social Media Survey",
@@ -18,13 +25,6 @@ const projectsData = [
     skills: "React CSS JavaScript",
     uipage: "https://krustykrabresturant.netlify.app/",
     code: "https://github.com/Constance-Nwaigwe/spongebob-UI",
-  },
-  {
-    image: calculator,
-    name: "React Calculator",
-    skills: "React CSS JavaScript",
-    uipage: "https://calculatorcreatedwithreact.netlify.app/",
-    code: "https://github.com/ConstanceNwaigwe/web-module-project-reducer",
   },
   {
     image: dataPic,
