@@ -152,8 +152,16 @@
   width: 300px;
 }
 
-.home_page_contacts_info p {
-  font-size: 18px;
+.home_page_contacts_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page_contacts_info a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 .home_page_footer {
