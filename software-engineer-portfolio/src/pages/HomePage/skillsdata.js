@@ -1,27 +1,33 @@
 const skillsData = [
   {
     name: "HTML",
-    years: "1+",
+    percentage: 85,
+    color: "#ff1d58",
   },
   {
     name: "CSS",
-    years: "1+",
+    percentage: 80,
+    color: "#f75990",
   },
   {
     name: "JavaScript",
-    years: "1+",
+    percentage: 80,
+    color: "#ffa8B6",
   },
   {
     name: "TypeScript",
-    years: "1+",
+    percentage: 70,
+    color: "#00DDFF",
   },
   {
     name: "React",
-    years: "1+",
+    percentage: 80,
+    color: "#0049B7",
   },
   {
     name: "Node",
-    years: "1+",
+    percentage: 70,
+    color: "#8458B3",
   },
 ];
 

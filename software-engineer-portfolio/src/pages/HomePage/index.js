@@ -1,5 +1,6 @@
 import "./styles.css";
 import React from "react";
+import ProgressBar from "@ramonak/react-progress-bar";
 import { SocialIcon } from "react-social-icons";
 import { skillsData } from "./skillsdata";
 import { projectsData } from "./projectsdata";
@@ -48,7 +49,10 @@ function HomePage() {
               return (
                 <div className="home_page_skills_content">
                   <h4>{data.name}</h4>
-                  <p>{data.years} Years Of Experience</p>
+                  <ProgressBar
+                    completed={data.percentage}
+                    bgColor={data.color}
+                  />
                 </div>
               );
             })}
@@ -77,6 +81,7 @@ function HomePage() {
                   </div>
                   <h4>{data.name}</h4>
                   <p>{data.skills}</p>
+                  <p>{data.description}</p>
                   <div className="home_page_projects_view">
                     <a
                       className="home_page_contact"
@@ -106,13 +111,15 @@ function HomePage() {
           <div className="home_page_contacts_heading">
             <h3>Contact Me</h3>
             <p>
-              I would love to learn more about your company and its culture. You
-              can reach me through email, linkedin, or a call.
+              Have a project? No matter how big or small, I'm sure I can help.
+              You can reach me through email, linkedin, or a call.
             </p>
           </div>
           <div className="home_page_contacts_info">
-            <p>constancenwaigwe@gmail.com</p>
-            <p>240-393-9491</p>
+            <a href="mailto:constancenwaigwe@gmail.com">
+              constancenwaigwe@gmail.com
+            </a>
+            <a href="tel:2403939491">240-393-9491</a>
             <div>
               <SocialIcon
                 url="https://github.com/ConstanceNwaigwe"
