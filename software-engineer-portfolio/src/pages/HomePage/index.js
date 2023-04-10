@@ -33,7 +33,8 @@ function HomePage() {
             <h2>Nice to meet you!</h2>
             <p>
               I'm a Software Engineer based in Maryland, United States. Creating
-              accessible and functional web apps is what I'm passionate about.
+              accessible and responsive web applications is what I'm passionate
+              about.
             </p>
             <a className="home_page_contact" href="#contact">
               CONTACT ME
