@@ -73,8 +73,8 @@
 
 .home_page_skills_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 170px;
   grid-row-gap: 40px;
 }
@@ -213,10 +213,8 @@
   }
 
   .home_page_skills_container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 100px;
-    grid-row-gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 }
 
@@ -225,18 +223,6 @@
   .home_page_contacts {
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-  }
-}
-
-/* @media mobile 630px */
-@media (max-width: 630px) {
-  .home_page_skills_container {
-    grid-row-gap: 0;
-    display: flex;
     flex-direction: column;
     width: fit-content;
     margin: 0 auto;
