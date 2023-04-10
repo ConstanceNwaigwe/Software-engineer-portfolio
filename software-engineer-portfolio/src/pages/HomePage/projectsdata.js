@@ -10,7 +10,7 @@ const projectsData = [
     image: bakery,
     name: "Sweet Eats Bakery",
     description:
-      "A website site created for a fake bakery where users can view menu items and book a table.",
+      "A website created for a fake bakery where users can view menu items and book a table.",
     skills: "React SCSS JavaScript",
     uipage: "https://sweeteatbakery.netlify.app/",
     code: "https://github.com/ConstanceNwaigwe/Sweet-Eats-Bakery",
