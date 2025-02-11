@@ -113,14 +113,11 @@ function HomePage() {
             <h3>Contact Me</h3>
             <p>
               Have a project? No matter how big or small, I'm sure I can help.
-              You can reach me through email, linkedin, or a call.
+              You can reach me through linkedin.
             </p>
           </div>
           <div className="home_page_contacts_info">
-            <a href="mailto:constancenwaigwe@gmail.com">
-              constancenwaigwe@gmail.com
-            </a>
-            <a href="tel:2403939491">240-393-9491</a>
+            <p>Connect with me on linkedin or github</p>
             <div>
               <SocialIcon
                 url="https://github.com/ConstanceNwaigwe"
